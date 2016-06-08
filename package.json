@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "My app description",
   "scripts": {
+    "postinstall": "npm run build",
     "build": "webpack --display-error-details",
     "start": "node server.js",
     "test": "npm-run-all test:*",
